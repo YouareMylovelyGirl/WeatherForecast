@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YGNavigationController.h"
+#import "YGMainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //隐藏状态栏
+    application.statusBarHidden = NO;
+    application.statusBarStyle = UIStatusBarStyleLightContent;
+    //创建控制器
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //创建跟控制器
+    YGMainViewController *mainVC = [[YGMainViewController alloc]init];
+    YGNavigationController *navVC = [[YGNavigationController alloc]initWithRootViewController:mainVC];
+    self.window.rootViewController = navVC;
+    //显示控制器
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

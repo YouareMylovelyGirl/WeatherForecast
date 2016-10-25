@@ -7,14 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48336931DBF3F8C00F606BE /* YGUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = A48336921DBF3F8C00F606BE /* YGUserDefaults.m */; };
+		A4A732341DBF71A30086B755 /* YGLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0C81DBF35CD004D2E05 /* YGLocationTool.m */; };
 		A4CED00A1DBF0B9F004D2E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0091DBF0B9F004D2E05 /* main.m */; };
 		A4CED00D1DBF0B9F004D2E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED00C1DBF0B9F004D2E05 /* AppDelegate.m */; };
-		A4CED0101DBF0B9F004D2E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED00F1DBF0B9F004D2E05 /* ViewController.m */; };
 		A4CED0131DBF0B9F004D2E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0111DBF0B9F004D2E05 /* Main.storyboard */; };
 		A4CED0151DBF0B9F004D2E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0141DBF0B9F004D2E05 /* Assets.xcassets */; };
 		A4CED0181DBF0B9F004D2E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0161DBF0B9F004D2E05 /* LaunchScreen.storyboard */; };
 		A4CED0231DBF0B9F004D2E05 /* WeatherForecastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0221DBF0B9F004D2E05 /* WeatherForecastTests.m */; };
 		A4CED02E1DBF0B9F004D2E05 /* WeatherForecastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED02D1DBF0B9F004D2E05 /* WeatherForecastUITests.m */; };
+		A4CED0771DBF192A004D2E05 /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0461DBF192A004D2E05 /* AFNetworkActivityLogger.m */; };
+		A4CED0781DBF192A004D2E05 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0491DBF192A004D2E05 /* AFHTTPRequestOperation.m */; };
+		A4CED0791DBF192A004D2E05 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED04B1DBF192A004D2E05 /* AFHTTPRequestOperationManager.m */; };
+		A4CED07A1DBF192A004D2E05 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED04D1DBF192A004D2E05 /* AFHTTPSessionManager.m */; };
+		A4CED07B1DBF192A004D2E05 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0501DBF192A004D2E05 /* AFNetworkReachabilityManager.m */; };
+		A4CED07C1DBF192A004D2E05 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0521DBF192A004D2E05 /* AFSecurityPolicy.m */; };
+		A4CED07D1DBF192A004D2E05 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0541DBF192A004D2E05 /* AFURLConnectionOperation.m */; };
+		A4CED07E1DBF192A004D2E05 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0561DBF192A004D2E05 /* AFURLRequestSerialization.m */; };
+		A4CED07F1DBF192A004D2E05 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0581DBF192A004D2E05 /* AFURLResponseSerialization.m */; };
+		A4CED0801DBF192A004D2E05 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED05A1DBF192A004D2E05 /* AFURLSessionManager.m */; };
+		A4CED0811DBF192A004D2E05 /* MBProgressHUD+SR.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED05D1DBF192A004D2E05 /* MBProgressHUD+SR.m */; };
+		A4CED0821DBF192A004D2E05 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4CED05E1DBF192A004D2E05 /* MBProgressHUD.bundle */; };
+		A4CED0831DBF192A004D2E05 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0601DBF192A004D2E05 /* MBProgressHUD.m */; };
+		A4CED0841DBF192A004D2E05 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0631DBF192A004D2E05 /* ChineseString.m */; };
+		A4CED0851DBF192A004D2E05 /* ChineseStringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0651DBF192A004D2E05 /* ChineseStringTool.m */; };
+		A4CED0861DBF192A004D2E05 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0671DBF192A004D2E05 /* ChineseToPinyinResource.m */; };
+		A4CED0871DBF192A004D2E05 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0691DBF192A004D2E05 /* HanyuPinyinOutputFormat.m */; };
+		A4CED0881DBF192A004D2E05 /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED06B1DBF192A004D2E05 /* NSString+PinYin4Cocoa.m */; };
+		A4CED0891DBF192A004D2E05 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = A4CED06C1DBF192A004D2E05 /* pinyin.c */; };
+		A4CED08A1DBF192A004D2E05 /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED06F1DBF192A004D2E05 /* PinyinFormatter.m */; };
+		A4CED08B1DBF192A004D2E05 /* PinYinForObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0711DBF192A004D2E05 /* PinYinForObjc.m */; };
+		A4CED08C1DBF192A004D2E05 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0731DBF192A004D2E05 /* PinyinHelper.m */; };
+		A4CED08D1DBF192A004D2E05 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0741DBF192A004D2E05 /* unicode_to_hanyu_pinyin.txt */; };
+		A4CED08E1DBF192A004D2E05 /* ZYPinYinSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0761DBF192A004D2E05 /* ZYPinYinSearch.m */; };
+		A4CED0911DBF1BD4004D2E05 /* YGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0901DBF1BD4004D2E05 /* YGNavigationController.m */; };
+		A4CED0941DBF1BF4004D2E05 /* YGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0931DBF1BF4004D2E05 /* YGMainViewController.m */; };
+		A4CED0971DBF1C88004D2E05 /* WeatherMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0961DBF1C88004D2E05 /* WeatherMainController.m */; };
+		A4CED09A1DBF1CE3004D2E05 /* CommonCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0991DBF1CE3004D2E05 /* CommonCityController.m */; };
+		A4CED09D1DBF1DBF004D2E05 /* SearchCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED09C1DBF1DBF004D2E05 /* SearchCityController.m */; };
+		A4CED0A01DBF1DEB004D2E05 /* WeatherViewBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED09F1DBF1DEB004D2E05 /* WeatherViewBanner.m */; };
+		A4CED0A31DBF1E26004D2E05 /* WeatherToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0A21DBF1E26004D2E05 /* WeatherToolBar.m */; };
+		A4CED0A61DBF1E55004D2E05 /* WeatherGeneralInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0A51DBF1E55004D2E05 /* WeatherGeneralInfoView.m */; };
+		A4CED0A91DBF1EA1004D2E05 /* WeatherDetailInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0A81DBF1EA1004D2E05 /* WeatherDetailInfoView.m */; };
+		A4CED0AC1DBF1EBF004D2E05 /* WeatherLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0AB1DBF1EBF004D2E05 /* WeatherLineChart.m */; };
+		A4CED0AF1DBF3314004D2E05 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0AE1DBF3314004D2E05 /* NSString+Extension.m */; };
+		A4CED0B21DBF335A004D2E05 /* NSAttributedString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0B11DBF335A004D2E05 /* NSAttributedString+Extension.m */; };
+		A4CED0B51DBF33A5004D2E05 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0B41DBF33A5004D2E05 /* UIApplication+Extension.m */; };
+		A4CED0B81DBF33BB004D2E05 /* UILabel+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0B71DBF33BB004D2E05 /* UILabel+Font.m */; };
+		A4CED0BB1DBF33CE004D2E05 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0BA1DBF33CE004D2E05 /* UIView+Frame.m */; };
+		A4CED0BD1DBF33F6004D2E05 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0BC1DBF33F6004D2E05 /* Foundation+Log.m */; };
+		A4CED0C01DBF34AC004D2E05 /* ConstDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0BF1DBF34AC004D2E05 /* ConstDefine.m */; };
+		A4CED0C61DBF359F004D2E05 /* YGHttpSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0C51DBF359F004D2E05 /* YGHttpSessionManager.m */; };
+		A4CED0CC1DBF3664004D2E05 /* YGWeatherDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CED0CB1DBF3664004D2E05 /* YGWeatherDataTool.m */; };
+		A4CED0D41DBF3694004D2E05 /* allCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0CD1DBF3694004D2E05 /* allCities.plist */; };
+		A4CED0D51DBF3694004D2E05 /* allCitiesDics.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0CE1DBF3694004D2E05 /* allCitiesDics.plist */; };
+		A4CED0D61DBF3694004D2E05 /* background_cloudy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0CF1DBF3694004D2E05 /* background_cloudy.jpeg */; };
+		A4CED0D71DBF3694004D2E05 /* background_rainy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0D01DBF3694004D2E05 /* background_rainy.jpeg */; };
+		A4CED0D81DBF3694004D2E05 /* background_snowy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0D11DBF3694004D2E05 /* background_snowy.jpeg */; };
+		A4CED0D91DBF3694004D2E05 /* background_sunny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0D21DBF3694004D2E05 /* background_sunny.jpeg */; };
+		A4CED0DA1DBF3694004D2E05 /* hotCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4CED0D31DBF3694004D2E05 /* hotCities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +86,117 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A48336911DBF3F8C00F606BE /* YGUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGUserDefaults.h; sourceTree = "<group>"; };
+		A48336921DBF3F8C00F606BE /* YGUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGUserDefaults.m; sourceTree = "<group>"; };
+		A4A732371DBF76630086B755 /* UIAssistDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAssistDefine.h; sourceTree = "<group>"; };
+		A4A732381DBF814F0086B755 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A4CED0051DBF0B9F004D2E05 /* WeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4CED0091DBF0B9F004D2E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A4CED00B1DBF0B9F004D2E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A4CED00C1DBF0B9F004D2E05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4CED00E1DBF0B9F004D2E05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4CED00F1DBF0B9F004D2E05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4CED0091DBF0B9F004D2E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../main.m; sourceTree = "<group>"; };
+		A4CED00B1DBF0B9F004D2E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		A4CED00C1DBF0B9F004D2E05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		A4CED0121DBF0B9F004D2E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A4CED0141DBF0B9F004D2E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4CED0141DBF0B9F004D2E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		A4CED0171DBF0B9F004D2E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4CED0191DBF0B9F004D2E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CED0191DBF0B9F004D2E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		A4CED01E1DBF0B9F004D2E05 /* WeatherForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CED0221DBF0B9F004D2E05 /* WeatherForecastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastTests.m; sourceTree = "<group>"; };
 		A4CED0241DBF0B9F004D2E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4CED0291DBF0B9F004D2E05 /* WeatherForecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherForecastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CED02D1DBF0B9F004D2E05 /* WeatherForecastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastUITests.m; sourceTree = "<group>"; };
 		A4CED02F1DBF0B9F004D2E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CED0451DBF192A004D2E05 /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		A4CED0461DBF192A004D2E05 /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
+		A4CED0481DBF192A004D2E05 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A4CED0491DBF192A004D2E05 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A4CED04A1DBF192A004D2E05 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A4CED04B1DBF192A004D2E05 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A4CED04C1DBF192A004D2E05 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A4CED04D1DBF192A004D2E05 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A4CED04E1DBF192A004D2E05 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A4CED04F1DBF192A004D2E05 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A4CED0501DBF192A004D2E05 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A4CED0511DBF192A004D2E05 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A4CED0521DBF192A004D2E05 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A4CED0531DBF192A004D2E05 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A4CED0541DBF192A004D2E05 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A4CED0551DBF192A004D2E05 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A4CED0561DBF192A004D2E05 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A4CED0571DBF192A004D2E05 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A4CED0581DBF192A004D2E05 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A4CED0591DBF192A004D2E05 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A4CED05A1DBF192A004D2E05 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A4CED05C1DBF192A004D2E05 /* MBProgressHUD+SR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+SR.h"; sourceTree = "<group>"; };
+		A4CED05D1DBF192A004D2E05 /* MBProgressHUD+SR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+SR.m"; sourceTree = "<group>"; };
+		A4CED05E1DBF192A004D2E05 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		A4CED05F1DBF192A004D2E05 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A4CED0601DBF192A004D2E05 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A4CED0621DBF192A004D2E05 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		A4CED0631DBF192A004D2E05 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		A4CED0641DBF192A004D2E05 /* ChineseStringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseStringTool.h; sourceTree = "<group>"; };
+		A4CED0651DBF192A004D2E05 /* ChineseStringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseStringTool.m; sourceTree = "<group>"; };
+		A4CED0661DBF192A004D2E05 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		A4CED0671DBF192A004D2E05 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		A4CED0681DBF192A004D2E05 /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		A4CED0691DBF192A004D2E05 /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		A4CED06A1DBF192A004D2E05 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		A4CED06B1DBF192A004D2E05 /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		A4CED06C1DBF192A004D2E05 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		A4CED06D1DBF192A004D2E05 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		A4CED06E1DBF192A004D2E05 /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		A4CED06F1DBF192A004D2E05 /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		A4CED0701DBF192A004D2E05 /* PinYinForObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinForObjc.h; sourceTree = "<group>"; };
+		A4CED0711DBF192A004D2E05 /* PinYinForObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinForObjc.m; sourceTree = "<group>"; };
+		A4CED0721DBF192A004D2E05 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		A4CED0731DBF192A004D2E05 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		A4CED0741DBF192A004D2E05 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		A4CED0751DBF192A004D2E05 /* ZYPinYinSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPinYinSearch.h; sourceTree = "<group>"; };
+		A4CED0761DBF192A004D2E05 /* ZYPinYinSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPinYinSearch.m; sourceTree = "<group>"; };
+		A4CED08F1DBF1BD4004D2E05 /* YGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGNavigationController.h; sourceTree = "<group>"; };
+		A4CED0901DBF1BD4004D2E05 /* YGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGNavigationController.m; sourceTree = "<group>"; };
+		A4CED0921DBF1BF4004D2E05 /* YGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMainViewController.h; sourceTree = "<group>"; };
+		A4CED0931DBF1BF4004D2E05 /* YGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGMainViewController.m; sourceTree = "<group>"; };
+		A4CED0951DBF1C88004D2E05 /* WeatherMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherMainController.h; sourceTree = "<group>"; };
+		A4CED0961DBF1C88004D2E05 /* WeatherMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherMainController.m; sourceTree = "<group>"; };
+		A4CED0981DBF1CE3004D2E05 /* CommonCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCityController.h; sourceTree = "<group>"; };
+		A4CED0991DBF1CE3004D2E05 /* CommonCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCityController.m; sourceTree = "<group>"; };
+		A4CED09B1DBF1DBF004D2E05 /* SearchCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCityController.h; sourceTree = "<group>"; };
+		A4CED09C1DBF1DBF004D2E05 /* SearchCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCityController.m; sourceTree = "<group>"; };
+		A4CED09E1DBF1DEB004D2E05 /* WeatherViewBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewBanner.h; sourceTree = "<group>"; };
+		A4CED09F1DBF1DEB004D2E05 /* WeatherViewBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewBanner.m; sourceTree = "<group>"; };
+		A4CED0A11DBF1E26004D2E05 /* WeatherToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherToolBar.h; sourceTree = "<group>"; };
+		A4CED0A21DBF1E26004D2E05 /* WeatherToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherToolBar.m; sourceTree = "<group>"; };
+		A4CED0A41DBF1E55004D2E05 /* WeatherGeneralInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherGeneralInfoView.h; sourceTree = "<group>"; };
+		A4CED0A51DBF1E55004D2E05 /* WeatherGeneralInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherGeneralInfoView.m; sourceTree = "<group>"; };
+		A4CED0A71DBF1EA1004D2E05 /* WeatherDetailInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetailInfoView.h; sourceTree = "<group>"; };
+		A4CED0A81DBF1EA1004D2E05 /* WeatherDetailInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetailInfoView.m; sourceTree = "<group>"; };
+		A4CED0AA1DBF1EBF004D2E05 /* WeatherLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherLineChart.h; sourceTree = "<group>"; };
+		A4CED0AB1DBF1EBF004D2E05 /* WeatherLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherLineChart.m; sourceTree = "<group>"; };
+		A4CED0AD1DBF3314004D2E05 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		A4CED0AE1DBF3314004D2E05 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		A4CED0B01DBF335A004D2E05 /* NSAttributedString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Extension.h"; sourceTree = "<group>"; };
+		A4CED0B11DBF335A004D2E05 /* NSAttributedString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Extension.m"; sourceTree = "<group>"; };
+		A4CED0B31DBF33A5004D2E05 /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
+		A4CED0B41DBF33A5004D2E05 /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
+		A4CED0B61DBF33BB004D2E05 /* UILabel+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Font.h"; sourceTree = "<group>"; };
+		A4CED0B71DBF33BB004D2E05 /* UILabel+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Font.m"; sourceTree = "<group>"; };
+		A4CED0B91DBF33CE004D2E05 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A4CED0BA1DBF33CE004D2E05 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A4CED0BC1DBF33F6004D2E05 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		A4CED0BE1DBF34AC004D2E05 /* ConstDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstDefine.h; sourceTree = "<group>"; };
+		A4CED0BF1DBF34AC004D2E05 /* ConstDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstDefine.m; sourceTree = "<group>"; };
+		A4CED0C41DBF359F004D2E05 /* YGHttpSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHttpSessionManager.h; sourceTree = "<group>"; };
+		A4CED0C51DBF359F004D2E05 /* YGHttpSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHttpSessionManager.m; sourceTree = "<group>"; };
+		A4CED0C71DBF35CD004D2E05 /* YGLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGLocationTool.h; sourceTree = "<group>"; };
+		A4CED0C81DBF35CD004D2E05 /* YGLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGLocationTool.m; sourceTree = "<group>"; };
+		A4CED0CA1DBF3664004D2E05 /* YGWeatherDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGWeatherDataTool.h; sourceTree = "<group>"; };
+		A4CED0CB1DBF3664004D2E05 /* YGWeatherDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGWeatherDataTool.m; sourceTree = "<group>"; };
+		A4CED0CD1DBF3694004D2E05 /* allCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = allCities.plist; sourceTree = "<group>"; };
+		A4CED0CE1DBF3694004D2E05 /* allCitiesDics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = allCitiesDics.plist; sourceTree = "<group>"; };
+		A4CED0CF1DBF3694004D2E05 /* background_cloudy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_cloudy.jpeg; sourceTree = "<group>"; };
+		A4CED0D01DBF3694004D2E05 /* background_rainy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_rainy.jpeg; sourceTree = "<group>"; };
+		A4CED0D11DBF3694004D2E05 /* background_snowy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_snowy.jpeg; sourceTree = "<group>"; };
+		A4CED0D21DBF3694004D2E05 /* background_sunny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_sunny.jpeg; sourceTree = "<group>"; };
+		A4CED0D31DBF3694004D2E05 /* hotCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hotCities.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +247,13 @@
 		A4CED0071DBF0B9F004D2E05 /* WeatherForecast */ = {
 			isa = PBXGroup;
 			children = (
-				A4CED00B1DBF0B9F004D2E05 /* AppDelegate.h */,
-				A4CED00C1DBF0B9F004D2E05 /* AppDelegate.m */,
-				A4CED00E1DBF0B9F004D2E05 /* ViewController.h */,
-				A4CED00F1DBF0B9F004D2E05 /* ViewController.m */,
-				A4CED0111DBF0B9F004D2E05 /* Main.storyboard */,
-				A4CED0141DBF0B9F004D2E05 /* Assets.xcassets */,
-				A4CED0161DBF0B9F004D2E05 /* LaunchScreen.storyboard */,
-				A4CED0191DBF0B9F004D2E05 /* Info.plist */,
+				A4CED03C1DBF1499004D2E05 /* Controllers */,
+				A4CED0411DBF1499004D2E05 /* Views */,
+				A4CED03B1DBF1499004D2E05 /* Category */,
+				A4CED03D1DBF1499004D2E05 /* Defines */,
+				A4CED0401DBF1499004D2E05 /* Tools (工具) */,
 				A4CED0081DBF0B9F004D2E05 /* Supporting Files */,
+				A4CED0431DBF164E004D2E05 /* Other（其他） */,
 			);
 			path = WeatherForecast;
 			sourceTree = "<group>";
@@ -117,7 +261,8 @@
 		A4CED0081DBF0B9F004D2E05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4CED0091DBF0B9F004D2E05 /* main.m */,
+				A4CED03E1DBF1499004D2E05 /* Libraries （三方库） */,
+				A4CED0161DBF0B9F004D2E05 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +283,200 @@
 				A4CED02F1DBF0B9F004D2E05 /* Info.plist */,
 			);
 			path = WeatherForecastUITests;
+			sourceTree = "<group>";
+		};
+		A4CED03B1DBF1499004D2E05 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0BC1DBF33F6004D2E05 /* Foundation+Log.m */,
+				A4CED0AD1DBF3314004D2E05 /* NSString+Extension.h */,
+				A4CED0AE1DBF3314004D2E05 /* NSString+Extension.m */,
+				A4CED0B01DBF335A004D2E05 /* NSAttributedString+Extension.h */,
+				A4CED0B11DBF335A004D2E05 /* NSAttributedString+Extension.m */,
+				A4CED0B31DBF33A5004D2E05 /* UIApplication+Extension.h */,
+				A4CED0B41DBF33A5004D2E05 /* UIApplication+Extension.m */,
+				A4CED0B61DBF33BB004D2E05 /* UILabel+Font.h */,
+				A4CED0B71DBF33BB004D2E05 /* UILabel+Font.m */,
+				A4CED0B91DBF33CE004D2E05 /* UIView+Frame.h */,
+				A4CED0BA1DBF33CE004D2E05 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A4CED03C1DBF1499004D2E05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED08F1DBF1BD4004D2E05 /* YGNavigationController.h */,
+				A4CED0901DBF1BD4004D2E05 /* YGNavigationController.m */,
+				A4CED0921DBF1BF4004D2E05 /* YGMainViewController.h */,
+				A4CED0931DBF1BF4004D2E05 /* YGMainViewController.m */,
+				A4CED0951DBF1C88004D2E05 /* WeatherMainController.h */,
+				A4CED0961DBF1C88004D2E05 /* WeatherMainController.m */,
+				A4CED0981DBF1CE3004D2E05 /* CommonCityController.h */,
+				A4CED0991DBF1CE3004D2E05 /* CommonCityController.m */,
+				A4CED09B1DBF1DBF004D2E05 /* SearchCityController.h */,
+				A4CED09C1DBF1DBF004D2E05 /* SearchCityController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4CED03D1DBF1499004D2E05 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0BE1DBF34AC004D2E05 /* ConstDefine.h */,
+				A4CED0BF1DBF34AC004D2E05 /* ConstDefine.m */,
+				A4A732371DBF76630086B755 /* UIAssistDefine.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		A4CED03E1DBF1499004D2E05 /* Libraries （三方库） */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED03F1DBF1499004D2E05 /* Resource（资源） */,
+				A4CED0441DBF192A004D2E05 /* AFNetworkActivityLogger */,
+				A4CED0471DBF192A004D2E05 /* AFNetWorking */,
+				A4CED05B1DBF192A004D2E05 /* MBProgressHUD */,
+				A4CED0611DBF192A004D2E05 /* PinYinSearchLib */,
+			);
+			path = "Libraries （三方库）";
+			sourceTree = "<group>";
+		};
+		A4CED03F1DBF1499004D2E05 /* Resource（资源） */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0CD1DBF3694004D2E05 /* allCities.plist */,
+				A4CED0CE1DBF3694004D2E05 /* allCitiesDics.plist */,
+				A4CED0CF1DBF3694004D2E05 /* background_cloudy.jpeg */,
+				A4CED0D01DBF3694004D2E05 /* background_rainy.jpeg */,
+				A4CED0D11DBF3694004D2E05 /* background_snowy.jpeg */,
+				A4CED0D21DBF3694004D2E05 /* background_sunny.jpeg */,
+				A4CED0D31DBF3694004D2E05 /* hotCities.plist */,
+			);
+			name = "Resource（资源）";
+			path = "../Resource（资源）";
+			sourceTree = "<group>";
+		};
+		A4CED0401DBF1499004D2E05 /* Tools (工具) */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0C41DBF359F004D2E05 /* YGHttpSessionManager.h */,
+				A4CED0C51DBF359F004D2E05 /* YGHttpSessionManager.m */,
+				A4CED0C71DBF35CD004D2E05 /* YGLocationTool.h */,
+				A4CED0C81DBF35CD004D2E05 /* YGLocationTool.m */,
+				A48336911DBF3F8C00F606BE /* YGUserDefaults.h */,
+				A48336921DBF3F8C00F606BE /* YGUserDefaults.m */,
+				A4CED0CA1DBF3664004D2E05 /* YGWeatherDataTool.h */,
+				A4CED0CB1DBF3664004D2E05 /* YGWeatherDataTool.m */,
+			);
+			path = "Tools (工具)";
+			sourceTree = "<group>";
+		};
+		A4CED0411DBF1499004D2E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED09E1DBF1DEB004D2E05 /* WeatherViewBanner.h */,
+				A4CED09F1DBF1DEB004D2E05 /* WeatherViewBanner.m */,
+				A4CED0A11DBF1E26004D2E05 /* WeatherToolBar.h */,
+				A4CED0A21DBF1E26004D2E05 /* WeatherToolBar.m */,
+				A4CED0A41DBF1E55004D2E05 /* WeatherGeneralInfoView.h */,
+				A4CED0A51DBF1E55004D2E05 /* WeatherGeneralInfoView.m */,
+				A4CED0A71DBF1EA1004D2E05 /* WeatherDetailInfoView.h */,
+				A4CED0A81DBF1EA1004D2E05 /* WeatherDetailInfoView.m */,
+				A4CED0AA1DBF1EBF004D2E05 /* WeatherLineChart.h */,
+				A4CED0AB1DBF1EBF004D2E05 /* WeatherLineChart.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4CED0431DBF164E004D2E05 /* Other（其他） */ = {
+			isa = PBXGroup;
+			children = (
+				A4A732381DBF814F0086B755 /* PrefixHeader.pch */,
+				A4CED0111DBF0B9F004D2E05 /* Main.storyboard */,
+				A4CED00B1DBF0B9F004D2E05 /* AppDelegate.h */,
+				A4CED00C1DBF0B9F004D2E05 /* AppDelegate.m */,
+				A4CED0091DBF0B9F004D2E05 /* main.m */,
+				A4CED0141DBF0B9F004D2E05 /* Assets.xcassets */,
+				A4CED0191DBF0B9F004D2E05 /* Info.plist */,
+			);
+			name = "Other（其他）";
+			path = "Tools (工具)/Other（其他）";
+			sourceTree = "<group>";
+		};
+		A4CED0441DBF192A004D2E05 /* AFNetworkActivityLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0451DBF192A004D2E05 /* AFNetworkActivityLogger.h */,
+				A4CED0461DBF192A004D2E05 /* AFNetworkActivityLogger.m */,
+			);
+			path = AFNetworkActivityLogger;
+			sourceTree = "<group>";
+		};
+		A4CED0471DBF192A004D2E05 /* AFNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0481DBF192A004D2E05 /* AFHTTPRequestOperation.h */,
+				A4CED0491DBF192A004D2E05 /* AFHTTPRequestOperation.m */,
+				A4CED04A1DBF192A004D2E05 /* AFHTTPRequestOperationManager.h */,
+				A4CED04B1DBF192A004D2E05 /* AFHTTPRequestOperationManager.m */,
+				A4CED04C1DBF192A004D2E05 /* AFHTTPSessionManager.h */,
+				A4CED04D1DBF192A004D2E05 /* AFHTTPSessionManager.m */,
+				A4CED04E1DBF192A004D2E05 /* AFNetworking.h */,
+				A4CED04F1DBF192A004D2E05 /* AFNetworkReachabilityManager.h */,
+				A4CED0501DBF192A004D2E05 /* AFNetworkReachabilityManager.m */,
+				A4CED0511DBF192A004D2E05 /* AFSecurityPolicy.h */,
+				A4CED0521DBF192A004D2E05 /* AFSecurityPolicy.m */,
+				A4CED0531DBF192A004D2E05 /* AFURLConnectionOperation.h */,
+				A4CED0541DBF192A004D2E05 /* AFURLConnectionOperation.m */,
+				A4CED0551DBF192A004D2E05 /* AFURLRequestSerialization.h */,
+				A4CED0561DBF192A004D2E05 /* AFURLRequestSerialization.m */,
+				A4CED0571DBF192A004D2E05 /* AFURLResponseSerialization.h */,
+				A4CED0581DBF192A004D2E05 /* AFURLResponseSerialization.m */,
+				A4CED0591DBF192A004D2E05 /* AFURLSessionManager.h */,
+				A4CED05A1DBF192A004D2E05 /* AFURLSessionManager.m */,
+			);
+			path = AFNetWorking;
+			sourceTree = "<group>";
+		};
+		A4CED05B1DBF192A004D2E05 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED05C1DBF192A004D2E05 /* MBProgressHUD+SR.h */,
+				A4CED05D1DBF192A004D2E05 /* MBProgressHUD+SR.m */,
+				A4CED05E1DBF192A004D2E05 /* MBProgressHUD.bundle */,
+				A4CED05F1DBF192A004D2E05 /* MBProgressHUD.h */,
+				A4CED0601DBF192A004D2E05 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A4CED0611DBF192A004D2E05 /* PinYinSearchLib */ = {
+			isa = PBXGroup;
+			children = (
+				A4CED0621DBF192A004D2E05 /* ChineseString.h */,
+				A4CED0631DBF192A004D2E05 /* ChineseString.m */,
+				A4CED0641DBF192A004D2E05 /* ChineseStringTool.h */,
+				A4CED0651DBF192A004D2E05 /* ChineseStringTool.m */,
+				A4CED0661DBF192A004D2E05 /* ChineseToPinyinResource.h */,
+				A4CED0671DBF192A004D2E05 /* ChineseToPinyinResource.m */,
+				A4CED0681DBF192A004D2E05 /* HanyuPinyinOutputFormat.h */,
+				A4CED0691DBF192A004D2E05 /* HanyuPinyinOutputFormat.m */,
+				A4CED06A1DBF192A004D2E05 /* NSString+PinYin4Cocoa.h */,
+				A4CED06B1DBF192A004D2E05 /* NSString+PinYin4Cocoa.m */,
+				A4CED06C1DBF192A004D2E05 /* pinyin.c */,
+				A4CED06D1DBF192A004D2E05 /* pinyin.h */,
+				A4CED06E1DBF192A004D2E05 /* PinyinFormatter.h */,
+				A4CED06F1DBF192A004D2E05 /* PinyinFormatter.m */,
+				A4CED0701DBF192A004D2E05 /* PinYinForObjc.h */,
+				A4CED0711DBF192A004D2E05 /* PinYinForObjc.m */,
+				A4CED0721DBF192A004D2E05 /* PinyinHelper.h */,
+				A4CED0731DBF192A004D2E05 /* PinyinHelper.m */,
+				A4CED0741DBF192A004D2E05 /* unicode_to_hanyu_pinyin.txt */,
+				A4CED0751DBF192A004D2E05 /* ZYPinYinSearch.h */,
+				A4CED0761DBF192A004D2E05 /* ZYPinYinSearch.m */,
+			);
+			path = PinYinSearchLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +541,7 @@
 		A4CECFFD1DBF0B9F004D2E05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YG;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "北京邮电大学世纪学院";
 				TargetAttributes = {
@@ -246,9 +586,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CED0D81DBF3694004D2E05 /* background_snowy.jpeg in Resources */,
+				A4CED0DA1DBF3694004D2E05 /* hotCities.plist in Resources */,
 				A4CED0181DBF0B9F004D2E05 /* LaunchScreen.storyboard in Resources */,
+				A4CED0D91DBF3694004D2E05 /* background_sunny.jpeg in Resources */,
+				A4CED0D61DBF3694004D2E05 /* background_cloudy.jpeg in Resources */,
+				A4CED0821DBF192A004D2E05 /* MBProgressHUD.bundle in Resources */,
 				A4CED0151DBF0B9F004D2E05 /* Assets.xcassets in Resources */,
 				A4CED0131DBF0B9F004D2E05 /* Main.storyboard in Resources */,
+				A4CED08D1DBF192A004D2E05 /* unicode_to_hanyu_pinyin.txt in Resources */,
+				A4CED0D71DBF3694004D2E05 /* background_rainy.jpeg in Resources */,
+				A4CED0D51DBF3694004D2E05 /* allCitiesDics.plist in Resources */,
+				A4CED0D41DBF3694004D2E05 /* allCities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +622,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CED0101DBF0B9F004D2E05 /* ViewController.m in Sources */,
+				A4CED0B81DBF33BB004D2E05 /* UILabel+Font.m in Sources */,
+				A4CED08C1DBF192A004D2E05 /* PinyinHelper.m in Sources */,
+				A4CED0891DBF192A004D2E05 /* pinyin.c in Sources */,
+				A48336931DBF3F8C00F606BE /* YGUserDefaults.m in Sources */,
+				A4CED0841DBF192A004D2E05 /* ChineseString.m in Sources */,
+				A4CED0881DBF192A004D2E05 /* NSString+PinYin4Cocoa.m in Sources */,
+				A4CED0A01DBF1DEB004D2E05 /* WeatherViewBanner.m in Sources */,
+				A4CED0811DBF192A004D2E05 /* MBProgressHUD+SR.m in Sources */,
+				A4CED0911DBF1BD4004D2E05 /* YGNavigationController.m in Sources */,
+				A4CED0C01DBF34AC004D2E05 /* ConstDefine.m in Sources */,
+				A4CED0B21DBF335A004D2E05 /* NSAttributedString+Extension.m in Sources */,
+				A4CED09D1DBF1DBF004D2E05 /* SearchCityController.m in Sources */,
+				A4CED0871DBF192A004D2E05 /* HanyuPinyinOutputFormat.m in Sources */,
+				A4CED09A1DBF1CE3004D2E05 /* CommonCityController.m in Sources */,
+				A4CED07C1DBF192A004D2E05 /* AFSecurityPolicy.m in Sources */,
 				A4CED00D1DBF0B9F004D2E05 /* AppDelegate.m in Sources */,
+				A4CED0791DBF192A004D2E05 /* AFHTTPRequestOperationManager.m in Sources */,
+				A4CED0A91DBF1EA1004D2E05 /* WeatherDetailInfoView.m in Sources */,
+				A4CED0851DBF192A004D2E05 /* ChineseStringTool.m in Sources */,
+				A4CED07D1DBF192A004D2E05 /* AFURLConnectionOperation.m in Sources */,
+				A4CED0B51DBF33A5004D2E05 /* UIApplication+Extension.m in Sources */,
+				A4CED0A31DBF1E26004D2E05 /* WeatherToolBar.m in Sources */,
+				A4CED0BD1DBF33F6004D2E05 /* Foundation+Log.m in Sources */,
+				A4CED0971DBF1C88004D2E05 /* WeatherMainController.m in Sources */,
+				A4CED0781DBF192A004D2E05 /* AFHTTPRequestOperation.m in Sources */,
+				A4CED0CC1DBF3664004D2E05 /* YGWeatherDataTool.m in Sources */,
+				A4CED0831DBF192A004D2E05 /* MBProgressHUD.m in Sources */,
+				A4CED08E1DBF192A004D2E05 /* ZYPinYinSearch.m in Sources */,
+				A4CED0771DBF192A004D2E05 /* AFNetworkActivityLogger.m in Sources */,
+				A4CED0A61DBF1E55004D2E05 /* WeatherGeneralInfoView.m in Sources */,
+				A4CED0861DBF192A004D2E05 /* ChineseToPinyinResource.m in Sources */,
+				A4CED0AF1DBF3314004D2E05 /* NSString+Extension.m in Sources */,
+				A4CED07E1DBF192A004D2E05 /* AFURLRequestSerialization.m in Sources */,
+				A4CED07A1DBF192A004D2E05 /* AFHTTPSessionManager.m in Sources */,
+				A4CED08B1DBF192A004D2E05 /* PinYinForObjc.m in Sources */,
+				A4CED0C61DBF359F004D2E05 /* YGHttpSessionManager.m in Sources */,
+				A4CED07B1DBF192A004D2E05 /* AFNetworkReachabilityManager.m in Sources */,
+				A4CED0AC1DBF1EBF004D2E05 /* WeatherLineChart.m in Sources */,
+				A4CED0BB1DBF33CE004D2E05 /* UIView+Frame.m in Sources */,
+				A4CED07F1DBF192A004D2E05 /* AFURLResponseSerialization.m in Sources */,
+				A4CED08A1DBF192A004D2E05 /* PinyinFormatter.m in Sources */,
+				A4A732341DBF71A30086B755 /* YGLocationTool.m in Sources */,
+				A4CED0801DBF192A004D2E05 /* AFURLSessionManager.m in Sources */,
 				A4CED00A1DBF0B9F004D2E05 /* main.m in Sources */,
+				A4CED0941DBF1BF4004D2E05 /* YGMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +708,7 @@
 				A4CED0121DBF0B9F004D2E05 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A4CED0161DBF0B9F004D2E05 /* LaunchScreen.storyboard */ = {
@@ -422,7 +814,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherForecast/Other（其他）/PrefixHeader.pch";
 				INFOPLIST_FILE = WeatherForecast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ccbupt.WeatherForecast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +829,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeatherForecast/Other（其他）/PrefixHeader.pch";
 				INFOPLIST_FILE = WeatherForecast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ccbupt.WeatherForecast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +905,7 @@
 				A4CED0341DBF0B9F004D2E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4CED0351DBF0B9F004D2E05 /* Build configuration list for PBXNativeTarget "WeatherForecastTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +914,7 @@
 				A4CED0371DBF0B9F004D2E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4CED0381DBF0B9F004D2E05 /* Build configuration list for PBXNativeTarget "WeatherForecastUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +923,7 @@
 				A4CED03A1DBF0B9F004D2E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

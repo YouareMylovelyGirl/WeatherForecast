@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YGNavigationController.h
 //  WeatherForecast
 //
 //  Created by 阳光 on 2016/10/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YGNavigationController : UINavigationController
 
 @end
-
